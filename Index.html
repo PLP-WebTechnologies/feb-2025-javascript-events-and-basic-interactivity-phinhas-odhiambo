@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Playground</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>🎉 Welcome to the JavaScript Playground!</h1>
+
+  <!-- Button Click -->
+  <button id="clickBtn">Click Me!</button>
+
+  <!-- Hover Box -->
+  <div id="hoverBox" class="box">Hover over me!</div>
+
+  <!-- Keypress Display -->
+  <p id="keyOutput">Press any key...</p>
+
+  <!-- Secret Button (double-click) -->
+  <button id="secretBtn">🤫 Secret Button</button>
+
+  <!-- Interactive Button -->
+  <button id="changeBtn">Make Me Fancy</button>
+
+  <!-- Image Gallery -->
+  <div class="gallery">
+    <img id="galleryImage" src="https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Gallery">
+    <button id="nextImage">Next Image</button>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tabBtn" data-tab="tab1">Tab 1</button>
+    <button class="tabBtn" data-tab="tab2">Tab 2</button>
+  </div>
+  <div id="tab1" class="tabContent">📄 This is Tab 1 content.</div>
+  <div id="tab2" class="tabContent hidden">📑 This is Tab 2 content.</div>
+
+  <!-- Form -->
+  <form id="userForm">
+    <h2>📝 Sign Up</h2>
+    <label>Email:
+      <input type="email" id="email" required>
+    </label>
+    <span id="emailFeedback" class="feedback"></span><br>
+
+    <label>Password:
+      <input type="password" id="password" required>
+    </label>
+    <span id="passwordFeedback" class="feedback"></span><br>
+
+    <button type="submit">Submit</button>
+    <p id="formMessage"></p>
+  </form>
+</body>
+</html>
